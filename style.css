@@ -1,0 +1,226 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color:  lightgray;
+}
+
+#mainnav ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+#mainnav li{
+  
+  width: 17%;
+}
+#mainnav a{
+  width: 100%;
+  display: block;
+  line-height: 3em;
+  text-align: center;
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+body{
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+} 
+.logo img{
+  border-radius: 50%;
+}
+.brand h1, .brand h2{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  padding-top: .8em;
+
+}
+.VidDesc h2{
+  text-align: center;
+  background-color: darkgray;
+}
+.middle{
+  display: flex;
+  justify-content: space-around;
+}
+.middle h2{
+  text-align: center;
+  background-color: darkgray;
+}
+main{
+  width: 30%
+}
+article{
+  width: 40%;
+}
+hr{
+  width: 95%
+}
+.imageGroup img{
+  width: 100%;
+}
+.imageGroup{
+  width: 45%;
+}
+.imageGroup h2{
+  text-align: center;
+  background-color: darkgray;
+}
+.imageGroup2 img{
+  width: 100%;
+}
+.imageGroup2{
+  width: 45%;
+}
+.imageGroup2 h2{
+  text-align: center;
+  background-color: darkgray;
+}
+aside{
+  display: flex;
+  justify-content: space-around;
+}
+.aside h2{
+  text-align: center;
+  background-color: darkgray;
+}
+.cycle-slideshow img{
+  width: 100%;
+}
+
+
+
+
+
+.MyDesc img{
+  width: 100%;
+}
+.MyDesc{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.MyDesc h2{
+  text-align: center;
+  background-color: darkgray;
+}
+
+
+
+.portfolio1 {
+  width: 25%;
+}
+.portfolio1 h2 {
+  text-align: center;
+  background-color: darkgray;
+}
+.portfolio1 img{
+  width: 100%;
+}
+.portfolio2 {
+  width: 25%;
+}
+
+.portfolio2 h2 {
+  text-align: center;
+  background-color: darkgray;
+}
+.portfolio2 img{
+  width: 100%;
+}
+.portfolio3 {
+  width: 25%;
+}
+.portfolio3 h2 {
+  text-align: center;
+  background-color: darkgray;
+}
+.portfolio3 img{
+  width: 100%;
+}
+.portfolio4 {
+  width: 25%;
+}
+.portfolio4 h2 {
+  text-align: center;
+  background-color: darkgray;
+}
+.portfolio4 img{
+  width: 100%;
+}
+
+
+
+.ContactForm{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.Links h2{
+  text-align: center;
+  background-color: darkgray;
+}
+#LinkNav ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+#LinkNav li{
+  background-color: rgb(238, 255, 6);
+  width: 18%;
+}
+#LinkNav a{
+  width: 100%;
+  display: block;
+  line-height: 3em;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+footer{
+  text-align: center;
+}
+@media screen and (max-width: 1000px){
+
+  .middle{
+    flex-direction: column;
+
+  }
+  article{
+    width: 100%;
+    text-align: center;
+  }
+  main{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  ul{
+    flex-direction: column;
+  }
+  #mainnav li{
+    width: 90%;
+  }
+  
+}
+  
+
